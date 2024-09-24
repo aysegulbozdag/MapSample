@@ -69,5 +69,8 @@ dependencies {
 
 
     implementation(libs.maps.compose)
-
+    implementation(libs.play.services.location)
+    implementation(libs.kotlin.coroutines.play)
+    implementation(libs.casa.ui)
+    implementation(libs.accompanist.permissions)
 }
